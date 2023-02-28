@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0,0,0,0.6);
+    height: 80px;
+    /* overflow  */
+    overflow: hidden;
+}
+
+
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.menu-container a.active-menu{
+    background-color: #ff4655;
+
+}
+
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover{
+    color: #ff4655;
+    
+    
+}
+
+section.main{
+    position: relative;
+    min-height: 800px;
+    background-image: url('../imagens/harborprincipal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section.sobre{
+    background-color: #ff4655;
+    background-image: linear-gradient(
+        30deg,
+        #ff4655,
+        white
+       );
+       background-size: 100% 100%;
+       animation: degrade-animado 5s  infinite alternate;
+       overflow: auto;
+ 
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100% ;
+    }
+}
+ 
+footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+h1 {
+    /* overflow */
+    text-decoration: overline;
+     text-align: center;
+     font-family: 'Secular One', sans-serif;
+     font-size: 30pt;
+     color: #0f1825;
+}
+
+h2 {
+    padding: 50px 50px;  
+    font-family: 'Secular One', sans-serif; 
+    font-size: 40pt;
+    color: #0f1825;
+}
+
+p {
+    padding: 25px 50px; 
+    text-align: justify; 
+    letter-spacing: 1px; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table tr td.classeagentes{
+    /* overflow */
+    text-decoration: blue;
+     text-align: center;
+     font-family: 'Secular One', sans-serif;
+     font-size: 15pt;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #0f1825;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 60px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+.controlbutton {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #0f1825;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 60px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+.controlbutton:hover, .controlbutton:focus {
+    color: #fff;
+    outline: 0;
+}
+
+  
+  .duelbutton {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #0f1825;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 60px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .duelbutton:hover, .duelbutton:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+.first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color #000 ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.first:hover {
+    box-shadow: 0 0 40px 40px #ff4655 inset;
+}
+
+.controlbutton {
+    -webkit-transition: box-shadow 300ms ease-in-out, color #000 ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.controlbutton:hover {
+    box-shadow: 0 0 40px 40px #ff4655 inset;
+}
+
+.duelbutton {
+    -webkit-transition: box-shadow 300ms ease-in-out, color #000 ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.duelbutton:hover {
+    box-shadow: 0 0 40px 40px #ff4655 inset;
+}
+
+.vcescolheu1{
+    padding: 50px 50px;  
+    font-family: 'Secular One', sans-serif; 
+    font-size: 25pt;  
+    color: black;
+}
+
+.vcescolheu2{
+    text-align: justify; 
+    letter-spacing: 1px; 
+    font-family: 'Ubuntu', sans-serif;
+}

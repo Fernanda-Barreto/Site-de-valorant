@@ -1,0 +1,12 @@
+function iniciadorf() {
+    document.getElementById("textoalerta").innerHTML = "<h2 class='vcescolheu1'>Você Escolheu Iniciador!</h2><p class='vcescolheu2'>Os Agentes Iniciadores de Valorant são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada.Nessa classe, há certa predominância de habilidades táticas voltadas para ações de desarme, tais como cegar inimigos, garantir reconhecimento da área ou causar um pequeno dano a fim de expulsar o time adversário de possíveis pontos de vantagem. Seu principal destaque é a possibilidade de executar essas estratégias sem precisar entrar, necessariamente, na linha de tiro<p>"; 
+  }
+  function sentinelaf() {
+    document.getElementById("textoalerta").innerHTML = "<h2 class='vcescolheu1'>Você Escolheu Sentinela!</h2><p class='vcescolheu2'>Especialistas em defesa, os Agentes Sentinelas são capazes de proteger e monitorar grandes áreas dos mapas a fim de garantir segurança para a conclusão de objetivos.com poucas habilidades de locomoção, é recomendado que eles se posicionem de maneira cautelosa durante os combates, trabalhando a retaguarda para evitar flancos inimigos.<p>";
+  }
+  function controladorf() {
+    document.getElementById("textoalerta").innerHTML = "<h2 class='vcescolheu1'>Você Escolheu Controlador!</h2><p class='vcescolheu2'>Dedicados à eliminação de pontos de vantagem do time adversário, os Agentes Controladores abrem alas para uma entrada segura na região inimiga em rodadas de ataque. Em contrapartida, na defesa, podem desencorajar os avanços inimigos com granadas, bombas de fumaça e ataques poderosos.Sua principal vantagem é justamente a capacidade de 'cortar' o mapa em zonas de segurança para o desenvolvimento de estratégias aliadas.<p>";
+  }
+  function duelistaf() {
+    document.getElementById("textoalerta").innerHTML = "<h2 class='vcescolheu1'>Você Escolheu Duelista!</h2><p class='vcescolheu2'>Combatentes natos, os Agentes Duelistas pertencem à linha de frente do combate. Tendo o maior número de habilidades ofensivas, essa classe se destaca por sua capacidade de locomoção rápida e letal.Os Duelistas são mais bem aproveitados por jogadores mais ousados, com reflexos rápidos e capacidade de tomar decisões rápidas. Isso se dá justamente pelo posicionamento avançado nas zonas de combate, o que deixa os Agentes expostos ao perigo.<p>";
+  }
